@@ -1,0 +1,23 @@
+Algoritmo Ej6
+	Edad25 = 0
+	EdadMenor = 0
+	Contador1 = 0
+	Contador2 = 0
+	Para i = 1 hasta 100 Con Paso 1
+		Escribir "ingrese la edad"
+		Leer Edad
+		Si Edad >=25
+			Edad25 = Edad25 + Edad
+			Contador1 = Contador1 +1
+		SiNo
+			EdadMenor = EdadMenor + Edad
+			Contador2 = Contador2 +1
+		FinSi
+	FinPara
+	Promedio1 = Edad25/Contador1
+	Promedio2 = EdadMenor/Contador2
+	Escribir "El promedio de edad mayores o iguales a 25 es: " Promedio1
+	Escribir  "El promedio de edad menores a 25 es: " Promedio2
+FinAlgoritmo
+
+
